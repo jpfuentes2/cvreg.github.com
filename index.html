@@ -15,20 +15,47 @@
   </head>
   <body>
     <div class="wrapper">
+    <div itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="url" content="http://cvreg.org" />
+      <meta itemprop="image" content="" />
+      <meta itemprop="logo" content="" />
       <header>
-        <h1 class="header">Central Virginia Ruby Enthusiasts Group (CVREG)</h1>
-        <p class="header">Richmond's Premiere Ruby Users Group</p>
+        <h1 class="header"><span itemprop="name">Central Virginia Ruby Enthusiasts Group</span> <span itemprop="brand" itemscope itemtype="http://schema.org/Brand">(<span itemprop="name">CVREG</span>)</span></h1>
+        <p class="header"><span itemprop="description">Richmond's Premiere Ruby Users Group</span></p>
         <ul>
           <li><a href="http://www.804rva.com/" title="804RVA">&gt; Meeting Location</a></li>
-          <li><a href="https://groups.google.com/forum/?fromgroups#!forum/cvruby" title="Mailing List">&gt; Google Group</a></li>
-          <li><a href="https://twitter.com/cvreg" title="Twitter">&gt; Twitter</a></li>
+          <li><a itemprop="url/mailingList" href="https://groups.google.com/forum/?fromgroups#!forum/cvruby" title="Mailing List">&gt; Google Group</a></li>
+          <li><a itemprop="url/twitter" href="https://twitter.com/cvreg" title="Twitter">&gt; Twitter</a></li>
           <li><a class="buttons github" href="https://github.com/cvreg">GitHub Profile</a></li>
         </ul>
       </header>
+      
+      <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+        <meta itemprop="streetAddress" content="1657 West Broad Street #3a" />
+        <meta itemprop="addressLocality" content="Richmond" />
+        <meta itemprop="addressRegion" content="VA" />
+        <meta itemprop="url" content="http://goo.gl/maps/HX2PY">
+      </span>
+
+      <span itemprop="contactPoint" itemscope itemtype="http://schema.org/ContactPoint">
+        <meta itemprop="contactType" content="Organizer" />
+        <meta itemprop="name" content="Mel Riffe" />
+        <meta itemprop="url" conent="http://melriffe.info" />
+      </span>
+      <span itemprop="contactPoint" itemscope itemtype="http://schema.org/ContactPoint">
+        <meta itemprop="contactType" content="Organizer" />
+        <meta itemprop="name" content="Jeremy Weiland" />
+        <meta itemprop="url" conent="" />
+      </span>
+      <span itemprop="contactPoint" itemscope itemtype="http://schema.org/ContactPoint">
+        <meta itemprop="contactType" content="Organizer" />
+        <meta itemprop="name" content="Chris Allport" />
+        <meta itemprop="url" conent="" />
+      </span>
 
       <section>
         <h2>Welcome to the CVREG!</h2>
-        <div itemscope itemtype="http://schema.org/Event">
+        <div itemprop="event" itemscope itemtype="http://schema.org/Event">
           <h3>June Meeting: The Timeless Way of Building by John Athayde</h3>
           <h4>Details</h4>
           <p>
@@ -108,6 +135,7 @@
       <footer>
         <p><small>Hosted on <a href="https://pages.github.com">GitHub Pages</a> using the Dinky theme</small></p>
       </footer>
+    </div> <!-- end Organization -->
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     <script type="text/javascript">
