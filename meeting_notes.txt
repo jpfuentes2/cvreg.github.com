@@ -1,0 +1,11 @@
+October Meeting: Adam Rabung & The Scala web framework Play
+
+Title: An introduction to Scala and the Play Framework
+
+Abstract: This talk will present a quick introduction to Scala syntax&concepts, followed by an overview of building web sites/services with the Play Framework, which was recently re-written in Scala. Finally, we'll talk about Play's most interesting capabilities: asynchronous and "reactive" programming.
+
+Bio: Adam has been a Java and Web programmer since the late 90s. He has been gradually switching to Scala over the last few years, and hopes he can avoid Java from here on out.
+
+November Meeting: Daniel Farrell & The Elixir Language
+
+< need abstract and bio >
