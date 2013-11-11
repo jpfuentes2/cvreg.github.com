@@ -1,11 +1,7 @@
-October Meeting: Adam Rabung & The Scala web framework Play
+November Meeting: Daniel Farrell on Elixir
 
-Title: An introduction to Scala and the Play Framework
+Title: Elixir -- An introduction to your next addiction
 
-Abstract: This talk will present a quick introduction to Scala syntax&concepts, followed by an overview of building web sites/services with the Play Framework, which was recently re-written in Scala. Finally, we'll talk about Play's most interesting capabilities: asynchronous and "reactive" programming.
+Abstract: This talk is an introduction to the Elixir language and some basic Functional Programming as well as some intro to the Erlang ecosystem. We will look at the Elixir language syntax, how to use Elixir and the technology of the Erlang community to make concurrent and distributed systems, and will also look at the emerging web ecosystem(Ecto and Dynamo) growing up around Elixir.
 
-Bio: Adam has been a Java and Web programmer since the late 90s. He has been gradually switching to Scala over the last few years, and hopes he can avoid Java from here on out.
-
-November Meeting: Daniel Farrell & The Elixir Language
-
-< need abstract and bio >
+Bio: Daniel is a Rubyist who came to our clan through the dreaded PHP route. He taught himself PHP and Javascript to make basic web pages, and then turned himself into a developer while working for himself doing IT support. He dishes Ruby by day at Weinstein Properties, developing mostly internal facing web applications.
