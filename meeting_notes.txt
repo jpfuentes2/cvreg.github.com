@@ -1,7 +1,13 @@
-November Meeting: Daniel Farrell on Elixir
+December Meeting: Jacques Fuentes on Go/DevOps
 
-Title: Elixir -- An introduction to your next addiction
+Title: Go: a "simple" systems level language
 
-Abstract: This talk is an introduction to the Elixir language and some basic Functional Programming as well as some intro to the Erlang ecosystem. We will look at the Elixir language syntax, how to use Elixir and the technology of the Erlang community to make concurrent and distributed systems, and will also look at the emerging web ecosystem(Ecto and Dynamo) growing up around Elixir.
+Abstract: Ruby is an elegant and highly productive language. Except when it isn't. There are two things we know Ruby (MRI) does not excel at: performance and concurrency. 
 
-Bio: Daniel is a Rubyist who came to our clan through the dreaded PHP route. He taught himself PHP and Javascript to make basic web pages, and then turned himself into a developer while working for himself doing IT support. He dishes Ruby by day at Weinstein Properties, developing mostly internal facing web applications.
+Enter Go: a compiled, fast, C-like systems level language created by folks at Google. We'll quickly cover the language internals to demonstrate why it's also elegant and highly productive. Then, Go's strengths and weaknesses will be compared to Ruby's in an effort to persuade you to learn you some Go.
+
+Next, you'll see why Go has found its niche in DevOps by reviewing some of the new fangled OSS it powers. If we have time, I'd will talk about Go's other niche: distributed systems. I'll walk you through a distributed consensus algorithm and discuss how it is implemented in Go.
+
+Bio: Jacques (@jpfuentes2) is a father, husband, tinkerer, and has a self-proclaimed obsession with all things programming. Because of family life and a lack of mental balance he has no other hobbies and is an extremely boring person. He will, however, gladly talk about beer, food, books, music, dogs (not cats), in no particular order.
+
+He first taught himself PHP (let's not talk about it), then 4GL (let's *really* not talk about it), JavaScript, Ruby, and then Go. He hopes to continue adding languages to his toolbox and has recently become fascinated by distributed algorithms/systems.
